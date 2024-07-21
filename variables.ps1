@@ -16,10 +16,13 @@ $STEAMINSTALLDIR="$RF2ROOT\steamcmd"
 # we need an Steam API key for the DLC installer
 $STEAMAPIKEY=""
 
+#
+$CURRENTLOCATION=((Get-Location).Path)
+
 # DLC installer uses CSV files ...
-$CSVCARFILE="$RF2ROOT\dlccars.csv"
-$CSVTRACKFILE="$RF2ROOT\dlctracks.csv"
-$CSVCONTENTFILE="$RF2ROOT\dlccontent.csv"
+$CSVCARFILE="$CURRENTLOCATION\dlccars.csv"
+$CSVTRACKFILE="$CURRENTLOCATION\dlctracks.csv"
+$CSVCONTENTFILE="$CURRENTLOCATION\dlccontent.csv"
 
 # name of the profile to use (refer to $RF2ROOT\Userdata\<profile>)
 # note: can be given as argument on CLI where used in scripts
