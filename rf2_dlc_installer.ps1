@@ -15,6 +15,9 @@
 # source functions
 . ./functions.ps1
 
+[void] [System.Reflection.Assembly]::LoadWithPartialName("System.Drawing") 
+[void] [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms") 
+
 function dlccontentinstall {
 
 # Initialisierung Form
