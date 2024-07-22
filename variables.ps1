@@ -24,6 +24,5 @@ $CSVCARFILE="$CURRENTLOCATION\dlccars.csv"
 $CSVTRACKFILE="$CURRENTLOCATION\dlctracks.csv"
 $CSVCONTENTFILE="$CURRENTLOCATION\dlccontent.csv"
 
-# name of the profile to use (refer to $RF2ROOT\Userdata\<profile>)
-# note: can be given as argument on CLI where used in scripts
-$PROFILE="player"
+# update DLC info (requires PWSH v7 and SteamAPI key)
+$REFRESHDLCINFO="false"

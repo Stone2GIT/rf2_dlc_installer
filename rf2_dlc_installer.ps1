@@ -193,8 +193,10 @@ start-process "$RF2ROOT\bin64\ModMgr.exe" -ArgumentList $ARGUMENTS -NoNewWindow 
 
 }
 
-#getdlcinfo
-
+if ( ($REFRESHDLCINFO -eq "true) -and ($STEAMAPIKEY -neq "") )
+{
+ getdlcinfo
+}
 
 while (-not $result -eq [System.Windows.Forms.DialogResult]::Cancel)
 {
