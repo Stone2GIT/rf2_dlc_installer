@@ -4,11 +4,6 @@
 # 03/2024 Dietmar Stein, info@simracingjustfair.org
 #
 
-# mandatory
-#
-# - script needs to be copied to rf2 root
-#
-
 # source variables
 . ./variables.ps1
 
