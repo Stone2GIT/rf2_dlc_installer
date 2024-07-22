@@ -193,7 +193,7 @@ start-process "$RF2ROOT\bin64\ModMgr.exe" -ArgumentList $ARGUMENTS -NoNewWindow 
 
 }
 
-if ( ($REFRESHDLCINFO -eq "true) -and ($STEAMAPIKEY -neq "") )
+if ( ($REFRESHDLCINFO -eq "true") -and ($STEAMAPIKEY -isnot "") )
 {
  getdlcinfo
 }
