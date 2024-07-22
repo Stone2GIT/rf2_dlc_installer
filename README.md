@@ -11,7 +11,8 @@ Scripts provided 'as is'.
 
 ## Note
 
-PS1 files need to be opened with editor once in order to get rid of the signing warning.
+- PS1 files need to be opened with editor once in order to get rid of the signing warning.
+- Serverunlock.bin is needed
 
 ## Quick start guide
 
