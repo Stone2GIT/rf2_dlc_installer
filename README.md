@@ -12,7 +12,7 @@ Scripts provided 'as is'.
 ## Note
 
 - PS1 files need to be opened with editor once in order to get rid of the signing warning.
-- Serverunlock.bin is needed
+- Serverkeys.bin and Serverunlock.bin from rF2 client is needed (see https://forum.studio-397.com/index.php?threads/dedicated-server-creates-no-serverkeys-bin.73781/#post-1123375)
 
 ## Quick start guide
 
